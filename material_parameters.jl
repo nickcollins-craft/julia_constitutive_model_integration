@@ -51,5 +51,5 @@ const optimisation_iterations = 20
 const optimisation_x_tol = 0.001
 
 # Set the save file for the data in julia's version of pickling
-save_folder = "/home/nick/Dropbox/Papers/Micromorphic Breakage Mechanics/Data/"
+save_folder = "YOUR_SAVE_FOLDER_HERE"
 save_filename = save_folder * "integration_results.jld2"

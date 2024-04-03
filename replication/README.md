@@ -1,0 +1,10 @@
+# Replication
+This folder contains four subfolders, each corresponding to one of the integrators, and a loading condition. Namely, they are the hyperplastic integrator used to treat constant volume shear and constant confining stress shear, and the h²plastic integrator used to treat the same loading conditions. The material parameters and numerical parameters used for each integration are contained in the corresponding file in each folder (in practice it is only the time step size that changes between the hyperplastic and h² integrators, and a boolean value which changes between the two loading conditions). The model functions are also stored in each folder for convenience, although they remain unchanged. This folder also contains a Project.toml and Manifest.toml file, that should allow you to exactly reproduce my Julia environment at the time I created the corresponding jld2 files. All that is required is to open the Julia REPL, then type (each new line representing a new command):
+```
+using Pkg
+Pkg.activate("path/to/this/folder/Project.toml")
+Pkg.instantiate()
+```
+where you replace path/to/this/folder with the path on your computer (for example, for me this reads "/home/ncollins/julia_constitutive_model_integration/replication/Project.toml"). Then, the state of the system should be exactly the same as what I used to run the simulations (plus or minus some differences relating to different chip architectures, operating systems etc). It should be noted that the bifurcation analysis of the h² integrator is quite time consuming (on the order of 30 minutes).
+As the file sizes are quite large (particularly for the h² integrator), they are stored on Zenodo, with each file clearly labelled with what integration and load condition it corresponds to. The files may be downloaded from [here](LINK GOES HERE).
+The expected behaviour is that the integration curves should appear smooth (with possibly some noise visible for the h² constant confining stress test), and the constant volume tests showing localisation while the constant confining stress tests do not.

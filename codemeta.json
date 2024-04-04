@@ -1,0 +1,42 @@
+{
+    "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+    "type": "SoftwareSourceCode",
+    "applicationCategory": "Mechanics",
+    "author": [
+        {
+            "id": "https://orcid.org/0000-0003-2510-137X",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "TRIPOP, Centre Inria de l'Université Grenoble Alpes"
+            },
+            "email": "nicholas.collins-craft@inria.fr",
+            "familyName": "Collins-Craft",
+            "givenName": "Nicholas Anton"
+        }
+    ],
+    "codeRepository": "https://github.com/nickcollins-craft/julia_constitutive_model_integration.git",
+    "dateCreated": "2020-06-01",
+    "dateModified": "2024-04-04",
+    "datePublished": "2021-10-05",
+    "description": "This software integrates a material constitutive model in the Cosserat continuum and conducts a bifurcation analysis, assuming a horizontal localisation band.",
+    "funder": {
+        "type": "Organization",
+        "name": "Horizon Europe"
+    },
+    "keywords": [
+        "Cosserat",
+        "Breakage",
+        "localisation"
+    ],
+    "license": "https://spdx.org/licenses/Apache-2.0",
+    "name": "Julia constitutive model integration",
+    "operatingSystem": "Linux",
+    "programmingLanguage": "Julia",
+    "relatedLink": "https://zenodo.org/records/10926006",
+    "releaseNotes": "Major update of system to work with recent Julia versions.",
+    "version": "1.1.0",
+    "developmentStatus": "active",
+    "funding": "101064805 - LEMMA",
+    "referencePublication": "https://doi.org/10.1016/j.jmps.2020.103975"
+}

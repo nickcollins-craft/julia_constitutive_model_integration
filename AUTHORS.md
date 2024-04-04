@@ -1,0 +1,1 @@
+Nicholas Anton Collins-Craft: Design, Architecture, Coding, Testing, Debugging, Documentation, Maintenance, Support, Management

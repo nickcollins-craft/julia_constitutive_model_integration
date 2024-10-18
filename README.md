@@ -3,8 +3,8 @@
 This repository contains code that (in principle) integrates the constitutive model described in the paper [A Cosserat Breakage Mechanics for brittle granular media](https://www.sciencedirect.com/science/article/pii/S0022509620302106?via%3Dihub) (the open access version is available [here](https://hal.science/hal-03120686v1)), as well as the linear stability analysis of this time-integration to determine whether a horizontal shear band forms.
 
 The intention of the repository is that a user (that's you!) modifies the code to suit their particular needs. At this point in time, the code is structured assuming that it is integrating a model that:
-1. is embedded in the (small strain) Cosserat continuum, and
-2. is a Breakage Mechanics model.  
+  1. is embedded in the (small strain) Cosserat continuum, and
+  2. is a Breakage Mechanics model.  
 As such, it is unlikely that the code as-is suits your model needs, however hopefully it is not a long way from code that can work for you (e.g. adaptation to second gradient should be easy, similar principles can be followed to apply the codes to non-Breakage Mechanics (or more complicated Breakage Mechanics) models).
 
 ## What is in the repository

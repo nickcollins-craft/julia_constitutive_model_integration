@@ -42,7 +42,7 @@ It should be highlighted that while the h² integrator is capable of doing stres
 This code is infrequently maintained, and it is not subject to any rigorous testing, or guarantees that it works on a version of Julia other than that contained in the Manifest and Project toml files. However, if it doesn't work for you, it shouldn't require much by way of debugging.
 
 ## Citing, help, contact etc
-If you use these codes in your work, I would appreciate a citation to this repository, and the paper above. If you need help, want to discuss the code, or want to let me know about an error, I'm always contactable at nicholas[dot]collins-crat[at]inria[dot]fr
+If you use these codes in your work, I would appreciate a citation to this repository, and the paper above. If you need help, want to discuss the code, or want to let me know about an error, I'm always contactable at nicholas-anton[dot]collins-crat[at]enpc[dot]fr
 
 ## Funding
 This software has been partially developed during my Marie Skłodowska-Curie Actions Individual Fellowship. I acknowledge the support of the Marie Skłodowska-Curie Actions program under the Horizon Europe research and innovation framework program (Grant agreement ID 101064805 LEMMA). Views and opinions expressed are however those of the author only and do not necessarily reflect those of the European Union or Horizon Europe. Neither the European Union nor the granting authority can be held responsible for them.
